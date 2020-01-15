@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.DateTime.Abstractions", "DickinsonBros.DateTime.Abstractions\DickinsonBros.DateTime.Abstractions.csproj", "{6797931E-EA78-411F-9783-5A45BE012D7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{CE71721C-8594-4497-A579-3018266E1EBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{DAE51131-B465-4AD4-8347-AA9EF0144634}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6797931E-EA78-411F-9783-5A45BE012D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6797931E-EA78-411F-9783-5A45BE012D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6797931E-EA78-411F-9783-5A45BE012D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6797931E-EA78-411F-9783-5A45BE012D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6797931E-EA78-411F-9783-5A45BE012D7C} = {CE71721C-8594-4497-A579-3018266E1EBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EFCF893-94CC-4377-B3DC-5CF9F8B140BF}
+	EndGlobalSection
+EndGlobal
