@@ -21,3 +21,5 @@ steps:
     command: 'build'
     projects: '**/*.csproj'
     configuration: '$(buildConfiguration)'
+
+
