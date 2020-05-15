@@ -4,10 +4,6 @@ pr:
     branches:
          include:
          - master
-    paths:
-          exclude:
-          - README.md
-          - Scripts/*
 
 pool:
  vmImage: 'windows-latest'
@@ -25,11 +21,3 @@ steps:
     command: 'build'
     projects: '**/*.csproj'
     configuration: '$(buildConfiguration)'
-- task: VSTest@2
-  inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      **\*Tests*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**
-    searchFolder: '$(System.DefaultWorkingDirectory)'
