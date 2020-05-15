@@ -20,4 +20,6 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.csproj'
-    configuration: '$(buildConfiguration)' 
+    configuration: '$(buildConfiguration)'
+
+
