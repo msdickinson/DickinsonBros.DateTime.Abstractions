@@ -3,16 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.DateTime.Abstractions", "DickinsonBros.DateTime.Abstractions\DickinsonBros.DateTime.Abstractions.csproj", "{6797931E-EA78-411F-9783-5A45BE012D7C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{CE71721C-8594-4497-A579-3018266E1EBA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{CE71721C-8594-4497-A579-3018266E1EBA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{DAE51131-B465-4AD4-8347-AA9EF0144634}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{DAE51131-B465-4AD4-8347-AA9EF0144634}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		Scripts\Prerelease.DickinsonBros.DateTime.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.DateTime.Abstractions.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{28093631-277F-4A34-A074-560DA4A42CB1}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\DickinsonBros.DateTime.runsettings = Tests\DickinsonBros.DateTime.runsettings
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.DateTime.Abstractions", "Source\DickinsonBros.DateTime.Abstractions\DickinsonBros.DateTime.Abstractions.csproj", "{1921C95D-305B-4968-9017-348533FF0DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.DateTime.Abstractions.Tests", "Tests\DickinsonBros.DateTime.Abstractions.Tests\DickinsonBros.DateTime.Abstractions.Tests.csproj", "{744081EF-5D53-4D19-9AB9-0C442FB85685}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,16 +27,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6797931E-EA78-411F-9783-5A45BE012D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6797931E-EA78-411F-9783-5A45BE012D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6797931E-EA78-411F-9783-5A45BE012D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6797931E-EA78-411F-9783-5A45BE012D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1921C95D-305B-4968-9017-348533FF0DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1921C95D-305B-4968-9017-348533FF0DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1921C95D-305B-4968-9017-348533FF0DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1921C95D-305B-4968-9017-348533FF0DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744081EF-5D53-4D19-9AB9-0C442FB85685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744081EF-5D53-4D19-9AB9-0C442FB85685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744081EF-5D53-4D19-9AB9-0C442FB85685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744081EF-5D53-4D19-9AB9-0C442FB85685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6797931E-EA78-411F-9783-5A45BE012D7C} = {CE71721C-8594-4497-A579-3018266E1EBA}
+		{1921C95D-305B-4968-9017-348533FF0DA5} = {CE71721C-8594-4497-A579-3018266E1EBA}
+		{744081EF-5D53-4D19-9AB9-0C442FB85685} = {28093631-277F-4A34-A074-560DA4A42CB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EFCF893-94CC-4377-B3DC-5CF9F8B140BF}
