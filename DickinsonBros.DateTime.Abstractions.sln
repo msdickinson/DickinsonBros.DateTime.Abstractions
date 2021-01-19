@@ -7,14 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{CE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{DAE51131-B465-4AD4-8347-AA9EF0144634}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\Prerelease.DickinsonBros.DateTime.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.DateTime.Abstractions.ps1
+		Scripts\PackagePrerelease.ps1 = Scripts\PackagePrerelease.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{28093631-277F-4A34-A074-560DA4A42CB1}"
 	ProjectSection(SolutionItems) = preProject
-		Tests\DickinsonBros.DateTime.Abstractions.runsettings = Tests\DickinsonBros.DateTime.Abstractions.runsettings
+		Tests\CodeCoverage.runsettings = Tests\CodeCoverage.runsettings
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.DateTime.Abstractions", "Source\DickinsonBros.DateTime.Abstractions\DickinsonBros.DateTime.Abstractions.csproj", "{1921C95D-305B-4968-9017-348533FF0DA5}"
